@@ -1271,3 +1271,50 @@ a.navbar-cta {
   color: var(--color-tan);
   font-size: 20px;
 }
+
+/* Legibilidad de títulos: Bodoni Moda con trazos finos más gruesos (opsz bajo) y mayor peso */
+.home-hero-title,
+.services-title h2,
+.service-card h3,
+.highlight-label,
+.contact-title,
+.contact-card h3,
+.philosophy-mark,
+.hero-title,
+.case-study-title,
+.cta-title,
+.logo-name,
+.footer-brand-name,
+.navbar-brand {
+  font-weight: 600;
+  font-optical-sizing: none;
+  font-variation-settings: "opsz" 11;
+  letter-spacing: 0;
+}
+
+.service-closing {
+  margin-top: 16px;
+  font-style: italic;
+}
+
+.carousel-quote--long {
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.service-card p + p {
+  margin-top: -8px;
+}
+
+.service-card .service-closing {
+  margin: 20px 0 0;
+}
+
+.service-checklist li {
+  align-items: flex-start;
+}
+
+.service-checklist li .material-symbols-outlined {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
